@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #fff9f3;
+  color: #333;
+}
+
+header {
+  background-color: #8b0000;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+header img{
+    width: 40px;
+    height: auto;
+}
+
+header div{
+  display: flex;
+  align-items: left;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Yesteryear", cursive;
+  font-style: italic;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  padding: 2rem;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+#event-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#event-details li {
+  background-color: #ffe6e1;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-left: 5px solid #8b0000;
+}
+
+.rsvp-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #198b00;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.rsvp-button:hover {
+  background-color: #a80000;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
